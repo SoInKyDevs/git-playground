@@ -1,0 +1,7 @@
+body {
+  font-family: Helvetica, Arial, Comic-Sans, 'Times New Roman';
+}
+.container {
+  max-width: 55rem;
+  margin: 4rem auto;
+}
