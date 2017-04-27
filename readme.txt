@@ -1,0 +1,1 @@
+This is part of the initial commit. Feel free to experiment in this repository and not worry about ruining anything. Learning is using and the more you use git, the better you will "git" it! Uh...I hate myself.
