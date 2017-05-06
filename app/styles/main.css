@@ -5,3 +5,7 @@ body {
   max-width: 55rem;
   margin: 4rem auto;
 }
+.result {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
