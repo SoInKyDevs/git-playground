@@ -1,0 +1,14 @@
+1. Downloading git
+2. Open gitbash
+3. Cloning a repository
+4. Explain basic git flow (High level)
+	4.1 Origin/Remote vs. local
+	4.2 Push vs Pull
+	4.3 Fetch and Merge
+	4.4 HEAD
+	4.5 Merge vs. Rebase
+5. Creating a repository
+6. Adding files/changes, committing, and pushing
+7. Looking at the changes in Github
+8. Branches
+9. Quick walkthrough of editing a file on another branch and merging it in or just adding a file to master and pushing
