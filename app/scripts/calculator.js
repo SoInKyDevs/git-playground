@@ -7,6 +7,10 @@ var Calculator = {
     document.querySelector('#submit-subtract').addEventListener('click', function() {
       Calculator.subtract();
     });
+    
+    document.querySelector('#submit-divide').addEventListener('click', function() {
+      Calculator.divide();
+    });
   },
 
   add: function() {
@@ -34,6 +38,20 @@ var Calculator = {
     result = document.querySelector('#subtract-result');
     
     returns = +firstNumber - +secondNumber;
+    result.innerHTML = "= " + returns;
+  },
+  
+  divide: function() {
+    var firstNumber,
+        secondNumber,
+        result,
+        returns;
+        
+    firstNumber = document.querySelector('#divide-first-number').value;
+    secondNumber = document.querySelector('#divide-second-number').value;
+    result = document.querySelector('#divide-result');
+    
+    returns = +firstNumber / +secondNumber;
     result.innerHTML = "= " + returns;
   }
 };
