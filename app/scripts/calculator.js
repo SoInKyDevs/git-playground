@@ -53,5 +53,19 @@ var Calculator = {
     
     returns = +firstNumber / +secondNumber;
     result.innerHTML = "= " + returns;
+  },
+
+  multiply: function() {
+    var firstNumber,
+        secondNumber,
+        result,
+        returns;
+        
+    firstNumber = document.querySelector('#multiply-first-number').value;
+    secondNumber = document.querySelector('#multiply-second-number').value;
+    result = document.querySelector('#multiply-result');
+    
+    returns = +firstNumber * +secondNumber;
+    result.innerHTML = "= " + returns;
   }
 };
