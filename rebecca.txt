@@ -1,3 +1,5 @@
 Rebecca Hammer - adding file to git playground!
 
 Now I'm adding a new branch!
+
+Making more commits before merging.
